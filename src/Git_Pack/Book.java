@@ -15,6 +15,8 @@ public class Book {
 			    driver.get("https://demo.nopcommerce.com/");
 			     
 			    driver.manage().window().maximize();
+			     driver.navigate().back();
+		            driver.navigate().forward();
 			    
 //				1. Register    
 			     
