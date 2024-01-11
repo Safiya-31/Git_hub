@@ -17,6 +17,7 @@ public class Book {
 			    driver.manage().window().maximize();
 			     driver.navigate().back();
 		            driver.navigate().forward();
+		             driver.navigate().refresh();
 			    
 //				1. Register    
 			     
